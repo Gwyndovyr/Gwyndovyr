@@ -29,8 +29,6 @@
      
 ## `$ systemctl status gwyn.service`
 
-## `$ systemctl status gwyn`
-
 ```text
 ● gwyn.service - Personal Development Environment
      Loaded: loaded
