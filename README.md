@@ -2,89 +2,73 @@
 
 # `gwyn`
 
-**Linux · Backend · Security · Robotics**
-
 ```text
-┌─────────────────────────────────────────────────────┐
-│ gwyn@arch ~ $ ./profile                             │
-│                                                     │
-│ SYSTEM                                              │
-│ ├─ OS        Arch Linux                             │
-│ ├─ WM        Hyprland                               │
-│ └─ Shell     Fish                                   │
-│                                                     │
-│ DEVELOPMENT                                         │
-│ ├─ Java      ████████████████████  loaded           │
-│ ├─ Backend   █████████████████░░░  active           │
-│ └─ Database  ████████████████░░░░  active           │
-│                                                     │
-│ OTHER                                               │
-│ ├─ Linux                                            │
-│ ├─ Robotics                                         │
-│ └─ Security                                         │
-└─────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────┐
+│ gwyn@arch ~ $ systemctl status gwyn                  │
+│                                                      │
+│ ● gwyn.service - Personal Development Environment    │
+│   Loaded: loaded                                     │
+│   Active: active (running)                           │
+│                                                      │
+│   ├─ backend.service                                 │
+│   │  └─ Java                                         │
+│   │                                                  │
+│   ├─ database.service                                │
+│   │  └─ SQL / Database Systems                       │
+│   │                                                  │
+│   ├─ robotics.service                                │
+│   │  └─ Automation & Hardware                        │
+│   │                                                  │
+│   └─ security.service                                │
+│      └─ [REDACTED]                                   │
+│                                                      │
+└──────────────────────────────────────────────────────┘
 ```
 
 </div>
-     
-## `$ systemctl status gwyn.service`
+
+## `$ whoami`
 
 ```text
-● gwyn.service - Personal Development Environment
-     Loaded: loaded
-     Active: active (running)
-   Processes: 5
-
-Sep 25 17:42:01 arch gwyn[1000]:
-    Starting backend.service...
-
-Sep 25 17:42:01 arch gwyn[1000]:
-    Java runtime initialized
-
-Sep 25 17:42:02 arch gwyn[1000]:
-    database.service started
-
-Sep 25 17:42:02 arch gwyn[1000]:
-    linux.service started
-
-Sep 25 17:42:03 arch gwyn[1000]:
-    robotics.service started
-
-Sep 25 17:42:03 arch gwyn[1000]:
-    security.service started
-
-Sep 25 17:42:03 arch gwyn[1000]:
-    All systems operational.
+Backend developer in training.
+Building, experimenting and breaking things.
 ```
-<details>
-<summary>security.service logs</summary>
+
+## `$ uname -a`
 
 ```text
-$ journalctl -u security.service
-
-[ OK ] Linux security
-[ OK ] Network fundamentals
-[ OK ] Security concepts
-[ OK ] Penetration testing
+OS      : Arch Linux
+WM      : Hyprland
+Shell   : Fish
+Terminal: Kitty
+Editor  : Neovim
 ```
-
-</details>
 
 ## `$ ls ~/projects`
 
 ```text
-backend/      databases/      linux/
-robotics/     automation/     [REDACTED]/
+backend/
+robotics/
+automation/
+linux/
+[REDACTED]/
 ```
 
-<div align="center">
+<details>
+<summary>🔐 security.service</summary>
 
 ```text
-$ systemctl status gwyn
+$ journalctl -u security.service
 
-● gwyn.service - learning
-     Active: running
+[ OK ] Linux Security
+[ OK ] Network Fundamentals
+[ OK ] Security Concepts
+[ OK ] Penetration Testing
 ```
+
+</details>
+
+<div align="center">
 
 `"it works on my machine."`
 
