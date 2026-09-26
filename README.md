@@ -19,22 +19,38 @@
 │ └─ Database  ████████████████░░░░  active           │
 │                                                     │
 │ OTHER                                               │
-│ ├─ Linux                                             │
-│ ├─ Robotics                                          │
-│ └─ Security                                          │
+│ ├─ Linux                                            │
+│ ├─ Robotics                                         │
+│ └─ Security                                         │
 └─────────────────────────────────────────────────────┘
 ```
 
 </div>
-
-## `$ whoami`
+     
+## `$ systemctl status gwyn.service`
 
 ```text
-Backend developer in training.
-Linux enthusiast.
-Robotics & security explorer.
-```
+● gwyn.service - Personal Development Environment
+     Loaded: loaded (/etc/gwyn/profile.conf)
+     Active: active (running)
 
+Main Process:
+  ├─ backend.service
+  │  ├─ Java
+  │  └─ API Development
+  │
+  ├─ database.service
+  │  └─ SQL / Relational Databases
+  │
+  ├─ linux.service
+  │  └─ System Administration
+  │
+  ├─ robotics.service
+  │  └─ Automation & Hardware
+  │
+  └─ security.service
+     └─ [REDACTED]
+```
 <details>
 <summary>🔐 restricted</summary>
 
