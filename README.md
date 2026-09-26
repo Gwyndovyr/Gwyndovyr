@@ -12,7 +12,6 @@
 │ WM:       Hyprland                           │
 │ Shell:    Fish                               │
 │ Terminal: Kitty                              │
-│ Editor:   Neovim                             │
 │                                              │
 │ Status:   currently building things          │
 └──────────────────────────────────────────────┘
@@ -27,21 +26,30 @@ Programming, Linux, robotics and automation.
 Mostly learning by building things and occasionally
 breaking them.
 
-## `$ ls ~/projects`
-
 ```text
-linux/       robotics/       automation/
-programming/ experiments/    questionable-ideas/
+~/projects
+├── linux/
+├── robotics/
+├── automation/
+└── [REDACTED]/
 ```
 
-## `$ git status`
+<details>
+<summary>🔐</summary>
 
 ```text
-On branch main
+$ cat /etc/shadow
 
-Changes not staged for commit:
-  modified:   everything
+[access granted]
+
+Cybersecurity
+├── network security
+├── Linux security
+├── penetration testing
+└── security research
 ```
+
+</details>
 
 <div align="center">
 
