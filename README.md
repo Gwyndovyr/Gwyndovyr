@@ -2,56 +2,68 @@
 
 # `gwyn`
 
-**Linux · Programming · Robotics**
+**Linux · Backend · Security · Robotics**
 
 ```text
-┌──────────────────────────────────────────────┐
-│ gwyn@arch ~ $ neofetch                       │
-│                                              │
-│ OS:       Arch Linux                         │
-│ WM:       Hyprland                           │
-│ Shell:    Fish                               │
-│ Terminal: Kitty                              │
-│                                              │
-│ Status:   currently building things          │
-└──────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ gwyn@arch ~ $ ./profile                             │
+│                                                     │
+│ SYSTEM                                              │
+│ ├─ OS        Arch Linux                             │
+│ ├─ WM        Hyprland                               │
+│ └─ Shell     Fish                                   │
+│                                                     │
+│ DEVELOPMENT                                         │
+│ ├─ Java      ████████████████████  loaded           │
+│ ├─ Backend   █████████████████░░░  active           │
+│ └─ Database  ████████████████░░░░  active           │
+│                                                     │
+│ OTHER                                               │
+│ ├─ Linux                                             │
+│ ├─ Robotics                                          │
+│ └─ Security                                          │
+└─────────────────────────────────────────────────────┘
 ```
 
 </div>
 
 ## `$ whoami`
 
-Programming, Linux, robotics and automation.
-
-Mostly learning by building things and occasionally
-breaking them.
-
 ```text
-~/projects
-├── linux/
-├── robotics/
-├── automation/
-└── [REDACTED]/
+Backend developer in training.
+Linux enthusiast.
+Robotics & security explorer.
 ```
 
 <details>
-<summary>🔐</summary>
+<summary>🔐 restricted</summary>
 
 ```text
-$ cat /etc/shadow
+$ ./security
 
-[access granted]
-
-Cybersecurity
-├── network security
-├── Linux security
-├── penetration testing
-└── security research
+[+] Linux security
+[+] Network fundamentals
+[+] Security concepts
+[+] Penetration testing
 ```
 
 </details>
 
+## `$ ls ~/projects`
+
+```text
+backend/      databases/      linux/
+robotics/     automation/     [REDACTED]/
+```
+
 <div align="center">
+
+```text
+$ systemctl status gwyn
+
+● gwyn.service - learning
+     Active: running
+```
 
 `"it works on my machine."`
 
